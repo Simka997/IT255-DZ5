@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>   
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Obuca Atea</title>  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel='stylesheet' type='text/css' href='css/css.css'>
+</head>
+
+<body>
+
+  <!-- Navigacija -->
+  <nav>
+    <div class='container'>
+      <img id=logoslika src="slike/logo.jpg">
+      <div>
+        
+        <span class='menu-button'>Menu</span>
+        <span class='login-button'>Login</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Nav Meni -->
+  <div class='nav-menu hide'>
+    <div class='container'>
+      <ul>
+        <li>Cipele</li>
+        <li>Ženske cipele</li>
+        <li>Muške cipele</li>
+        <li>Dodaci za cipele</li>
+        <li>Veleprodaja</li>
+      </ul>
+      <ul>
+        <li>Kontakt</li>
+        <li>Twitter</li>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Email</li>
+      </ul>
+    </div>
+  </div>
+
+<!-- Login Form -->
+  <div class='login-form'>
+    <div class='container'>
+      <form>
+        <h4>Korisnicko ime</h4>
+        <input class='username' />
+        <h4>Lozinka</h4>
+        <input type='password' />
+        <input class='sign-in-button' type='submit' value='Sign In' />
+      </form>
+    </div>
+  </div>
+
+
+   <!-- Product Cards -->
+  <div class='container'>
+    <div class='product-card'>
+      <div class='product-photo sole-air-ii'></div>
+      <div class='product-details'>
+        <h4>Sole Air II</h4>
+        <div>
+          <p>35000 rsd</p>
+          <div class='more-details-button'>
+            <img src='https://cdn2.iconfinder.com/data/icons/navigation-set-arrows-part-two/32/Arrow_Dotted_Right-128.png' />
+          </div>
+        </div>
+      </div>
+
+     <div class='shoe-details'>
+        <p>Vrhunski stil i udobnost, Sole Air II su odlični za hodanje i obično nošenje.</p>
+        <div class='size-chart'>
+          <h4>Brojevi</h4>
+          <ul class='sizes'>
+            <li>36</li>
+            <li>39</li>
+            <li>40</li>
+            <li>41</li>
+            <li>42</li>
+          </ul>
+        </div>
+        <div class='buy-now-button disabled'>
+          <h3>Dodaj u korpu</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class='container'>
+    <div class='product-card'>
+      <div class='product-photo tidal-x'></div>
+      <div class='product-details'>
+        <h4>Tidal X</h4>
+        <div>
+          <p>14.000 rsd</p>
+          <div class='more-details-button'>
+           <a href="#naruci.html"><img src='https://cdn2.iconfinder.com/data/icons/navigation-set-arrows-part-two/32/Arrow_Dotted_Right-128.png' /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class='shoe-details'>
+        <p>Gumeni podloga potpisa Tidal Ks čine ovo savršenim pokretnim cipelama. Sa gornjem i mekanom mrežicom i sintetičkim polimernim podlogama, ove cipele zaista leti.</p>
+        <div class='size-chart'>
+          <h4>Brojevi</h4>
+          <ul class='sizes'>
+            <li>37</li>
+            <li>38</li>
+            <li>39</li>
+            <li>40 </li>
+            <li>41</li>
+          </ul>
+        </div>
+        <div class='buy-now-button disabled'>
+          <h3>Dodaj u korpu</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class='container'>
+    <div class='product-card'>
+      <div class='product-photo dark-sole-original'></div>
+      <div class='product-details'>
+        <h4>Dark Sole Original</h4>
+        <div>
+          <p>6000 rsd</p>
+          <div class='more-details-button'>
+            <img src='https://cdn2.iconfinder.com/data/icons/navigation-set-arrows-part-two/32/Arrow_Dotted_Right-128.png' />
+          </div>
+        </div>
+      </div>
+
+      <div class='shoe-details'>
+        <p>Osvetlite noć s Dark Original Original. Svetla oko sredine se aktiviraju kada se zaglavi.s</p>
+        <div class='size-chart'>
+          <h4>Brojevi</h4>
+          <ul class='sizes'>
+            <li>36</li>
+            <li>37</li>
+            <li>38</li>
+            <li>39 </li>
+            <li>40</li>
+          </ul>
+        </div>
+        <div class='buy-now-button disabled'>
+          <h3>Dodaj u korpu</h3>
+        </div>
+      </div>
+    </div>
+ <!-- Korpa -->
+  <div class='shopping-cart'>
+    <div class='container'>
+      <div class='cart'>
+        <object type='image/svg+xml' data='https://s3.amazonaws.com/codecademy-content/courses/jquery/audit/images/shopping-cart.svg'></object>
+        <h3 class='items-qty'>1</h3>
+      </div>
+      <h3>Provera</h3>
+    </div>
+  </div>
+
+  <footer>
+    <div class='container'>
+      <img id=logoslika src="slike/logo.jpg">
+      <div>Kontaktirajte nas</div>
+    </div>
+  </footer>
+
+
+   <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script> 
+
+  <script src='js/meni.js'></script> 
+</body>
+
+</html>
